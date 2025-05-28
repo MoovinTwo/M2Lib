@@ -14,7 +14,7 @@ end
 function packageManager:update()
     if self.packs ~= nil then
         for i,v in pairs(self.packs) do
-            local package = string.format("Packages/%s/main", v)
+            local package = string.format("Lib.Packages.%s.main", v)
             require(package)
             print("Loaded: ", v)
         end

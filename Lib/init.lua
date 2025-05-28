@@ -1,5 +1,5 @@
 
-require("Packages/packageManager")
+require("Lib.Packages.packageManager")
 
 M2Lib = {}
 M2Lib.__index = M2Lib
